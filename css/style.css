@@ -19,6 +19,11 @@
     padding-right: 90px;
 }
 
+.first a {
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
 .contenido {
     width: 100%;
 }
@@ -60,6 +65,11 @@
     font-style: normal;
     font-weight: 400;
     float: right;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .navbar ul li {
