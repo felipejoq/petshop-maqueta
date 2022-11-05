@@ -71,7 +71,7 @@ a {
 }
 
 .navbar {
-  display: inline-block;
+  display: inline;
   color: #fff;
   font-style: normal;
   font-weight: 400;
