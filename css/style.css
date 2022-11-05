@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-} 
+}
+
+body, a {
+    color: #3C2313;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-orange {
+    color: #F0A83E;
+}
+
 
 .first {
     display: flex;
@@ -10,7 +22,6 @@
     background-color: #222;
     height: 20px;
     color: #F3F3F3;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
@@ -34,8 +45,6 @@
 }
 
 .options {
-    display: inline-block;
-    position: relative;
     float: right;
 }
 
@@ -61,7 +70,6 @@
 .navbar {
     display: inline-block;
     color: #FFF;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     float: right;
@@ -94,7 +102,6 @@
 
 .title-banner{
     border-radius: 5px;
-    font-family: "Roboto";
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
@@ -106,10 +113,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #3C2313;
 }
 
 .description-banner {
-    font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -119,6 +126,7 @@
     width: 365px;
     height: 19px;
     margin-top: 12px;
+    color: #3C2313;
 }
 
 .button-header {
@@ -131,7 +139,6 @@
 
 .button-accion-header{
     border-radius: 5px;
-    font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
@@ -143,5 +150,57 @@
 
 .button-accion-header:hover {
     background-color: #d8932a;
+}
+
+.main {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-main {
+    text-align: center;
+}
+
+h1.title-main {
     font-weight: 700;
+}
+
+.pets {
+    font-size: 80px;
+}
+
+.products {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card {
+    max-width: 264px;
+    margin-right: 20px;
+    background-color: #FBFAF6;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+ul.categories li {
+    display: inline;
+    margin: 5px;
+}
+
+ul.categories a {
+    color: #666666;
+    text-decoration: none;
+}
+
+ul.categories a:hover {
+    color: #000000;
+}
+
+ul.categories li + li::before {
+    margin-right: 10px;
+    content: " - ";
 }
