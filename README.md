@@ -6,8 +6,8 @@
 
 ### 📝 Pendientes (To do):
 
-- Desarrollar el footer y créditos.
-- Desarrollar las reglas css que permitan al sitio ser adaptativo a distintas resoluciones de pantalla.
+- ✅ Desarrollar el footer y créditos.
+- 👷‍♂️ Desarrollar las reglas css que permitan al sitio ser adaptativo a distintas resoluciones de pantalla.
 - Otras.
 
 ### 📸 Vista Previa Desktop
