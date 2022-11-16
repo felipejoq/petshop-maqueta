@@ -18,54 +18,44 @@
   <body>
     <header>
       <div class="first">
-        <div class="contenido">
-          <div class="sales-text">Grandes Ofertas en comederos</div>
-          <div class="options">
-            <ul>
-              <li>
-                <a href="#">Español <i class="fa-solid fa-chevron-down"></i></a>
-              </li>
-              <li>
-                <a href="#">Arg$ <i class="fa-solid fa-chevron-down"></i></a>
-              </li>
-            </ul>
-          </div>
+        <div class="sales-text">Grandes Ofertas en comederos</div>
+        <div class="options">
+          <ul>
+            <li>
+              <a href="#">Español <i class="fa-solid fa-chevron-down"></i></a>
+            </li>
+            <li>
+              <a href="#">Arg$ <i class="fa-solid fa-chevron-down"></i></a>
+            </li>
+          </ul>
         </div>
       </div>
       <div class="second">
-        <div class="contenido">
-          <div class="row-header">
-            <div class="column-header">
-              <div class="logo">
-                <a href="#">
-                  <h1>
-                    <img src="./img/cat_1.png" alt="" />
-                    <span class="logo-text-white">Front</span
-                    ><span class="logo-text-brown">Cat&Dog</span>
-                    <img src="./img/dog_1.png" alt="" />
-                  </h1>
-                </a>
-              </div>
-            </div>
-            <div class="column-header">
-              <div class="navbar">
-                <ul>
-                  <li>
-                    <a href="#"><i class="fa-solid fa-paw"></i> Categorías</a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa-solid fa-paw"></i> Pets</a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa-solid fa-paw"></i> Nosotros</a>
-                  </li>
-                  <li>
-                    <a href="#"><i class="fa-solid fa-paw"></i> Contáctanos</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+        <div class="logo">
+          <a href="#"><img src="./img/cat_1.svg" alt="" /></a>
+          <a href="#"
+            ><h1>
+              <span class="logo-text-brown">Front</span
+              ><span class="logo-text-white">Cat&Dog</span>
+            </h1></a
+          >
+          <a href="#"><img src="./img/dog_1.svg" alt="" /></a>
+        </div>
+        <div class="navbar">
+          <ul>
+            <li>
+              <a href="#"><i class="fa-solid fa-paw"></i> Categorías</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-paw"></i> Pets</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-paw"></i> Nosotros</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-paw"></i> Contáctanos</a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
@@ -91,43 +81,43 @@
           <li><a href="#">Accesorios</a></li>
           <li><a href="#">Comida</a></li>
         </ul>
+      </div>
 
-        <div class="products">
-          <div class="card">
-            <div class="card-img">
-              <a href="#">
-                <img src="./img/products/churrasquito.png" alt="Churrasquito" />
-              </a>
-            </div>
-            <div class="card-title">
-              <a href="#">Juguete Churrasquito</a>
-            </div>
-            <div class="card-price text-orange">$150</div>
+      <div class="products">
+        <div class="card">
+          <div class="card-img">
+            <a href="#">
+              <img src="./img/products/churrasquito.png" alt="Churrasquito" />
+            </a>
           </div>
+          <div class="card-title">
+            <a href="#">Juguete Churrasquito</a>
+          </div>
+          <div class="card-price text-orange">$150</div>
+        </div>
 
-          <div class="card">
-            <div class="card-img">
-              <a href="#">
-                <img src="./img/products/comedero.png" alt="Churrasquito" />
-              </a>
-            </div>
-            <div class="card-title">
-              <a href="#">Comedero para perro</a>
-            </div>
-            <div class="card-price text-orange">$250</div>
+        <div class="card">
+          <div class="card-img">
+            <a href="#">
+              <img src="./img/products/comedero.png" alt="Churrasquito" />
+            </a>
           </div>
+          <div class="card-title">
+            <a href="#">Comedero para perro</a>
+          </div>
+          <div class="card-price text-orange">$250</div>
+        </div>
 
-          <div class="card">
-            <div class="card-img">
-              <a href="#">
-                <img src="./img/products/huesito.png" alt="Churrasquito" />
-              </a>
-            </div>
-            <div class="card-title">
-              <a href="#">Juguete Huesito</a>
-            </div>
-            <div class="card-price text-orange">$650</div>
+        <div class="card">
+          <div class="card-img">
+            <a href="#">
+              <img src="./img/products/huesito.png" alt="Churrasquito" />
+            </a>
           </div>
+          <div class="card-title">
+            <a href="#">Juguete Huesito</a>
+          </div>
+          <div class="card-price text-orange">$650</div>
         </div>
       </div>
 
@@ -136,7 +126,7 @@
           <p>Contáctanos</p>
         </div>
         <div class="boddy-form">
-          <form onsubmit="return false;">
+          <form class="form-inputs" onsubmit="return false;">
             <input type="text" name="" id="" placeholder="Nombre y Apellido" />
 
             <input
@@ -147,36 +137,35 @@
             />
 
             <input type="tel" name="" id="" placeholder="Teléfono" />
-
-            <button class="bt-reset" type="reset">Resetear</button
-            ><button class="bt-send" type="submit">Enviar</button>
+            <div class="footer-contact-form">
+              <button class="bt-reset" type="reset">Resetear</button
+              ><button class="bt-send" type="submit">Enviar</button>
+            </div>
           </form>
         </div>
       </div>
     </div>
 
-    <div class="suscribe">
+    <div class="suscribe-bar">
       <div class="text-suscribe">
         <i class="fa-solid fa-envelope-circle-check"></i> Suscríbete para más
         novedades
       </div>
-      <div class="form-suscribe">
-        <form onsubmit="return false;">
-          <input
-            type="email"
-            name=""
-            id=""
-            placeholder="Ingresa tu correo electrónico"
-          />
+      <form class="form-suscribe" onsubmit="return false;">
+        <input
+          type="email"
+          name=""
+          id=""
+          placeholder="Ingresa tu correo electrónico"
+        />
 
-          <button type="submit">Suscribirme</button>
-        </form>
-      </div>
+        <button type="submit">Suscribirme</button>
+      </form>
     </div>
 
-    <footer class="footer">
-      <div class="row bg-footer">
-        <div class="column">
+    <footer>
+      <div class="footer">
+        <div class="column-one">
           <div class="info-footer">
             <div class="icono-footer">
               <img src="./img/location.png" alt="Localidad" />
@@ -207,18 +196,16 @@
             </div>
           </div>
         </div>
-        <div class="column">
-          <div class="footter-logo-container">
-            <div class="footer-logo">
-              <a href="#">
-                <h3>
-                  <img src="./img/cat_1.png" alt="" />
-                  <span class="logo-text-white">Front</span
-                  ><span class="logo-text-orange">Cat&Dog</span>
-                  <img src="./img/dog_1.png" alt="" />
-                </h3>
-              </a>
-            </div>
+        <div class="column-two">
+          <div class="footer-logo">
+            <a href="#">
+              <h3>
+                <img src="./img/cat_1.png" alt="" />
+                <span class="logo-text-white">Front</span
+                ><span class="text-orange">Cat&Dog</span>
+                <img src="./img/dog_1.png" alt="" />
+              </h3>
+            </a>
           </div>
         </div>
       </div>
