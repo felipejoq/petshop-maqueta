@@ -15,4 +15,4 @@
 ### 📸 Vista Previa Desktop
 
 ![Vista previa de la versión 
-Desktop](https://raw.githubusercontent.com/felipejoq/petshop-maqueta/master/preview-desktop-version.png)
+Desktop](https://raw.githubusercontent.com/felipejoq/petshop-maqueta/master/preview-desktop-version.jpg)
