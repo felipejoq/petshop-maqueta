@@ -10,9 +10,12 @@
 
 ### 📝 Pendientes (To do):
 
-- 📱 Añadir CSS para que sea Responsivo.
+- 📱 Mejorar versión responsive.
 
 ### 📸 Vista Previa Desktop
 
-![Vista previa de la versión 
-Desktop](https://raw.githubusercontent.com/felipejoq/petshop-maqueta/master/preview-desktop-version.jpg)
+![Vista Previa Desktop](https://raw.githubusercontent.com/felipejoq/petshop-maqueta/master/preview-desktop-version.jpg)
+
+### 📸 Vista Previa Responsive
+
+![Vista Previa Responsive](https://raw.githubusercontent.com/felipejoq/petshop-maqueta/master/preview-responsive-version.jpg)
